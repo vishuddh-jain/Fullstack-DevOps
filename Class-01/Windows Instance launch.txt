@@ -1,0 +1,33 @@
+1. How to build a Windows instance on an EC2 Virtual machine :
+  -> First of all login in your AWS account
+  -> go to services and select compute
+  -> there you will find a service name EC2 (elastic compute cloud), we have already learned about it in our README.md file
+  
+  # IN EC2 :
+    -> On the dashboard you can see every resource as 0 and security group as 1 let it be and click on launch instance.
+    # Inside Launch Instance :
+      -> Here you  have to follow 7 basic steps every time while creating an instance, the steps are :
+        1. number of instances.
+        2. name and tag of the instance.
+        3. AMI (Amazon Machine Image) i.e. the os for your windows instance.
+        4. instance type.
+        5. keypair i.e create a key pair and give it a name.
+        6. security group i.e for windows instance always choose RDP(remote desktop protocol).
+        7. storage i.e allocate storage to the instance.
+        8. finally launch the instance or server, you are ready with your windows instance.
+
+2. How to connect to your windows instance :
+  -> select the instance that you just launched.
+  -> click on connect to connect to your server.
+  -> then select RDP client as you are going to connect to window instance.
+  -> then download the "remote desktop file" to visually look your server like another remote computer on your machine.
+  -> now click on get password, to get password :
+    - upload that ".pem" file or paste it's content.
+    - decrypt the password to reveal your password.
+  -> now open the remote connection application and enter the decrypted password their, confirm it. 
+  -> Access your windows instance.
+
+
+
+
+
