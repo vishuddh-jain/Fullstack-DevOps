@@ -1,8 +1,8 @@
-1. Topics Covered
-   AWS Cloud
-   AWS AC Creation
-   EC2 Theory
-   Windows Instance Launch
+1. Topics Covered :
+   AWS Cloud,
+   AWS AC Creation,
+   EC2 Theory,
+   Windows Instance Launch,
 
 2. What I Understood:
   -> Cloud computing refers to the on-demand delivery of IT resources
