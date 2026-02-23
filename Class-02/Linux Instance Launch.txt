@@ -1,0 +1,19 @@
+1. Launching a Linux Instance/server: 
+
+   1. Number of Instances: 1
+   2. Instance Details:
+     - Name and Tags: MyLinux
+     - AMI (Amazon Machine Image): Select Amazon Linux
+     - Instance Type: Choose T3 Micro
+     - Key Pair:
+        Name: Choose any name (test)
+        Format: Select .ppk (for use with PuTTY)
+     - Security Group: select SSH port
+     - Storage: 8GB
+    3. After setting up, click on Launch Instance.
+    4. View Instances: Verify that your Linux machine is running.
+
+--> These are the steps that should be followed to create a linux instance.
+--> PuTTy is a tool that we use to connect to our instance after creating.
+--> PuTTy is only used to connect linux instance, not for windows instances.
+
