@@ -1,0 +1,23 @@
+## Connecting to the Instance
+    1. Download PuTTY Tool: Ensure PuTTY is installed on your system.
+      
+    2. Connect to the Instance:
+         Select the Linux instance and click on Connect.
+         GO to the SSH client.
+         There, you can see an example link at the bottom - It consists of the username and password together
+         Copy the connection string (username@DNS-name).
+      
+    3. Open PuTTY Tool:
+       a. Paste the connection string in the Host Name field(username@DNS-name).
+       b. Navigate to the "+" sign of SSH and then the "+" sign of Auth.
+       c. Under the Private key file for authentication, browse and select the test.ppk file.
+       d. Click Open.
+       e. Accept the security alert to connect to your instance.
+
+    --> PuTTY requires 3 things to connect to the Linux instance that are:
+        1. DNS
+        2. Username
+        3. .ppk file (puTTy's private key)
+      
+    --> .ppk file is essentially for linux instances not for windows instances.
+    --> it is a security file same as .pem file as in Windows.
